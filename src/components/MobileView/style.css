@@ -1,0 +1,41 @@
+.small-screen-wrap {
+  display: none;
+}
+
+.mobile-black-background {
+  width: 100%;
+  height: auto;
+  background-blend-mode: multiply;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(48 48 48 / 58%),
+    rgb(26 26 26)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.order-ai-text {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 11px;
+  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.experience-description {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.5);
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-bottom: 25%;
+}
+
+@media screen and (max-width: 1060px) {
+  .small-screen-wrap {
+    display: block;
+  }
+}

@@ -1,0 +1,18 @@
+.loadingCircle {
+  border-radius: 100%;
+  background-color: grey;
+  width: 15px;
+  height: 13px;
+  margin: 0 2px;
+}
+
+.loadingMessage {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+}
+
+.activeLoadingCircle {
+  background-color: RGB(163, 162, 165);
+}

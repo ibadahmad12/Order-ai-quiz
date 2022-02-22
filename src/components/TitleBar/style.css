@@ -1,0 +1,51 @@
+.nav-bar-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 72px;
+  position: relative;
+  box-shadow: 0 6px 3px -7px black;
+  z-index: 50;
+}
+
+.title-image {
+  width: 268px;
+}
+
+.schedule-button-wrap {
+  position: absolute;
+  top: 0;
+  left: 64px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.schedule-button {
+  width: 228px;
+  height: 40px;
+  border-radius: 40px;
+  box-shadow: 0 2px 3px 0 rgb(0 0 0 / 1%);
+  border: solid 1px #0e8476;
+  background-color: #0e8476;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.calendar-icon {
+  width: 24px;
+  margin-right: 24px;
+}
+
+.link-style {
+  text-decoration: none;
+  color: white;
+}

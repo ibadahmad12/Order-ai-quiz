@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "FatFrank-Free";
+  src: local("FatFrank-Free"),
+    url(./assets/fonts/FatFrank-Free.ttf) format("ttf"),
+    url(./assets/fonts/FatFrank-Free.woff) format("woff");
+}
+
+@font-face {
+  font-family: "FFNort-Black";
+  src: local("FFNort-Black"),
+    url(./assets/fonts/Nort/FFNort-Black.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "FFNort-BoldItalic";
+  src: local("FFNort-BoldItalic"),
+    url(./assets/fonts/Nort/FFNort-BoldItalic.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "FFNort-ExtraLight";
+  src: local("FFNort-ExtraLight"),
+    url(./assets/fonts/Nort/FFNort-ExtraLight.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "FFNort-Light";
+  src: local("FFNort-Light"),
+    url(./assets/fonts/Nort/FFNort-Light.ttf) format("ttf"),
+    url(./assets/fonts/Nort/FFNort-Light.woff) format("woff");
+}
+
+@font-face {
+  font-family: "FFNort-MediumItalic";
+  src: local("FFNort-MediumItalic"),
+    url(./assets/fonts/Nort/FFNort-MediumItalic.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "FFNort-ThinItalic";
+  src: local("FFNort-ThinItalic"),
+    url(./assets/fonts/Nort/FFNort-ThinItalic.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "FFNort-BlackItalic";
+  src: local("FFNort-BlackItalic"),
+    url(./assets/fonts/Nort/FFNort-BlackItalic.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "FFNort-ExtraBold";
+  src: local("FFNort-ExtraBold"),
+    url(./assets/fonts/Nort/FFNort-ExtraBold.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "FFNort-ExtraLightItalic";
+  src: local("FFNort-ExtraLightItalic"),
+    url(./assets/fonts/Nort/FFNort-ExtraLightItalic.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "FFNort-LightItalic";
+  src: local("FFNort-LightItalic"),
+    url(./assets/fonts/Nort/FFNort-LightItalic.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "FFNort-Regular";
+  src: local("FFNort-Regular"),
+    url(./assets/fonts/Nort/FFNort-Regular.ttf) format("ttf"),
+    url(./assets/fonts/Nort/FFNort-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: "FFNort-Bold";
+  src: local("FFNort-Bold"),
+    url(./assets/fonts/Nort/FFNort-Bold.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "FFNort-ExtraBoldItalic";
+  src: local("FFNort-ExtraBoldItalic"),
+    url(./assets/fonts/Nort/FFNort-ExtraBoldItalic.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "FFNort-Italic";
+  src: local("FFNort-Italic"),
+    url(./assets/fonts/Nort/FFNort-Italic.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "FFNort-Medium";
+  src: local("FFNort-Medium"),
+    url(./assets/fonts/Nort/FFNort-Medium.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "FFNort-Thin";
+  src: local("FFNort-Thin"),
+    url(./assets/fonts/Nort/FFNort-Thin.ttf) format("ttf");
+}
+
+body {
+  margin: 0;
+  font-family: "FFNort-Regular", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

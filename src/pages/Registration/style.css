@@ -1,0 +1,441 @@
+.content-registration {
+  min-height: 125vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.form-wrap {
+  margin-top: 50px;
+  position: relative;
+  height: min-content;
+}
+
+@media screen and (max-width: 1300px) {
+  .content-registration {
+    justify-content: start;
+  }
+
+  .form-wrap {
+    margin-left: 7%;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .form-wrap {
+    margin-left: 4%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .form-wrap {
+    margin-left: 0%;
+  }
+}
+
+.black-background {
+  width: 801px;
+  height: 486px;
+  background-blend-mode: multiply;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(48 48 48 / 58%),
+    rgb(26 26 26)
+  );
+  position: absolute;
+}
+
+.title-text {
+  padding-top: 31px;
+  padding-left: 278px;
+  opacity: 0.5;
+  text-shadow: 0 2px 1px rgb(0 0 0 / 50%);
+  font-size: 11px;
+  letter-spacing: 0.4px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.description-text {
+  width: 346px;
+  height: 58px;
+  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.5);
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #fff;
+  margin-left: 132px;
+  text-align: center;
+}
+
+.description-text p {
+  margin: 0px;
+  font-family: "FatFrank-Free", "FFNort-Regular";
+}
+
+.registration-form-card {
+  width: 608px;
+  min-height: 520px;
+  height: auto;
+  margin: 143px 64px 79px 32px;
+  padding: 33px 58.5px 23px 42.5px;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.registration-form-card p {
+  color: #1a1346;
+  font-size: 18px;
+}
+
+#hubspotForm {
+  padding-left: 38px;
+  padding-top: 16px;
+}
+
+.hs-input {
+  width: 200px;
+  height: 40px;
+}
+
+.large-input {
+  width: 433px;
+  height: 40px;
+}
+
+.hs-input {
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  border-width: 0;
+  padding: 0px 12px;
+  margin-right: 10px;
+  margin-bottom: 6px;
+  margin-top: 10px;
+}
+
+#hubspotForm select {
+  width: 100%;
+  color: grey;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+#hubspotForm input:focus-visible {
+  box-shadow: 0 2px 20px 0 rgb(0 0 0 / 20%);
+  background-color: white;
+}
+
+#hubspotForm ul {
+  list-style-type: none;
+}
+
+#hubspotForm input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+.submit-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 433px;
+}
+
+.hs-button {
+  width: 127px;
+  height: 40px;
+  border-radius: 40px;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
+  border: solid 1px #0e8476;
+  background-color: #0e8476;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.phone-wrap {
+  position: absolute;
+  top: 55px;
+  right: -190px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.registration-phone-img {
+  width: 350px;
+  height: 638px;
+  border-radius: 48px;
+  box-shadow: 0px 25px 200px -59px #aaaaaa;
+  background-size: contain;
+  padding-top: 82px;
+}
+
+.text-messages-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.registration-phone-number {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.57;
+  text-align: center;
+  color: #282828;
+  width: 100%;
+}
+
+.colored-message-box {
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(to top, #4b5de8, #2ec9d7);
+  text-align: right;
+  margin-right: 10px;
+}
+
+.colored-message-text {
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: right;
+  color: #fff;
+  margin: 0;
+  padding-right: 12px;
+}
+
+.first-message-box {
+  width: 263px;
+  height: 64px;
+}
+
+.white-message-box {
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  align-self: flex-start;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+.white-message-text {
+  font-size: 14px;
+  line-height: 1.43;
+  color: #282828;
+  padding: 12px 0px 12px 12px;
+  margin: 0;
+}
+
+.second-message-box {
+  width: 211px;
+  height: 164px;
+  margin-top: 35px;
+}
+
+.third-message-box {
+  width: 257px;
+  height: 144px;
+  margin-top: 170px;
+}
+
+.fourth-message-box {
+  margin-top: 325px;
+  width: 56px;
+  height: 44px;
+}
+
+.fourth-message-box .colored-message-text {
+  padding: 0;
+}
+
+.wrap {
+  width: 316px;
+  overflow-y: hidden;
+  position: relative;
+  height: 570px;
+  margin-left: 18px;
+}
+
+.wrap > div {
+  position: absolute;
+}
+
+.wrap > div.block_1 {
+  animation-name: block1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  top: 100px;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap > div.block_2 {
+  animation-name: block2;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  opacity: 0;
+  top: -20px;
+}
+
+.wrap > div.block_3 {
+  animation-name: block3;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+  opacity: 0;
+  top: 0;
+}
+
+.wrap > div.block_4 {
+  animation-name: block4;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
+  opacity: 0;
+  top: 100px;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes block1 {
+  0% {
+    top: 100px;
+    opacity: 1;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes block2 {
+  0% {
+    top: -20px;
+    opacity: 1;
+  }
+  100% {
+    top: 40px;
+    opacity: 1;
+  }
+}
+
+@keyframes block3 {
+  0% {
+    top: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 80px;
+    opacity: 1;
+  }
+}
+
+@keyframes block4 {
+  0% {
+    top: 140px;
+    opacity: 1;
+  }
+  100% {
+    top: 80px;
+    opacity: 1;
+  }
+}
+
+.hs-error-msg {
+  color: #ff585d;
+  text-overflow: initial;
+  font-size: 12px;
+}
+
+.hs-main-font-element {
+  color: #ff585d;
+  text-overflow: initial;
+  font-size: 14px;
+}
+
+.hs-error-msgs {
+  margin: 0 10px 0px 0px;
+  padding: 0;
+}
+
+.d-none {
+  display: none;
+}
+
+@media screen and (max-height: 790px) {
+  .black-background {
+    width: 750px;
+    height: 407px;
+  }
+
+  .form-wrap {
+    margin-top: 30px;
+  }
+
+  .registration-form-card {
+    padding-top: 7px;
+    margin-top: 125px;
+  }
+
+  .title-text {
+    padding-top: 13px;
+  }
+
+  .registration-phone-img {
+    width: 308px;
+    height: 552px;
+  }
+
+  .wrap {
+    width: 280px;
+  }
+
+  .first-message-box {
+    width: 234px;
+  }
+
+  @keyframes block4 {
+    0% {
+      top: 100px;
+      opacity: 1;
+    }
+    100% {
+      top: 80px;
+      opacity: 1;
+    }
+  }
+
+  .third-message-box {
+    width: 239px;
+    animation-name: block4;
+  }
+}
+
+.hs-input {
+  width: 90%;
+}
+
+.loading-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 400px;
+  align-items: center;
+}
