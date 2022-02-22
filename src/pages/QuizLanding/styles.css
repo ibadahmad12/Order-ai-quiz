@@ -1,0 +1,124 @@
+.quiz-landing-container {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.quiz-content-container {
+  position: absolute;
+  inset: 0;
+}
+
+.quiz-hero-image img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.quiz-content-container {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.quiz-content-container h6 {
+  text-transform: uppercase;
+  margin: 0;
+  width: 684px;
+  height: 27px;
+  flex-grow: 0;
+  font-family: FatFrank-Free;
+  font-size: 22.8px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #fff;
+}
+
+.quiz-content-container h1 {
+  margin: 0;
+  width: 945px;
+  height: 172px;
+  font-family: FatFrank-Free;
+  font-size: 72px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #fff;
+}
+
+.quiz-content-container p {
+  margin: 0;
+  width: 945px;
+  height: 64px;
+  font-family: FFNort-Light;
+  font-size: 22.8px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.start-quiz-button {
+  margin: 20px 0;
+  color: white;
+  border: 1px solid white;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 40px 14px;
+  border-radius: 40px;
+  border: solid 1px #0e8476;
+  background-color: #0e8476;
+}
+
+@media (max-width: 1000px) {
+  .quiz-content-container h6,
+  .quiz-content-container h1,
+  .quiz-content-container p {
+    width: 95%;
+  }
+  .quiz-content-container h1 {
+    font-size: clamp(3rem, 8vw, 4rem);
+    height: auto;
+  }
+
+  .quiz-content-container h6 {
+    height: auto;
+    font-size: clamp(0.5rem, 6vw, 1.5rem);
+  }
+
+  .quiz-content-container p {
+    width: 90%;
+    height: auto;
+    font-size: clamp(0.7rem, 4vw, 1.5rem);
+  }
+}
+
+@media (max-width: 600px) {
+  .quiz-content-container h6 {
+    height: auto;
+    font-size: clamp(0.5rem, 6vw, 0.9rem);
+  }
+}
