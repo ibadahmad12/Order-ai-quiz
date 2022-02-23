@@ -52,7 +52,6 @@ const Registration = () => {
 
   return (
     <div className="page-wrap">
-      F
       <TitleBar />
       <ChachedImage className="d-none" alt="" src={BackgroundImage} />
       <ChachedImage className="d-none" alt="" src={RegistrationPhone} />

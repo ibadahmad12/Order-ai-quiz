@@ -1,0 +1,132 @@
+.quiz-results-container {
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  row-gap: 1.5rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.quiz-results-container h6 {
+  margin: 0;
+  font-family: FatFrank-Free;
+  font-size: 20.3px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.quiz-results-container h1 {
+  margin: 0;
+  font-family: FatFrank-Free;
+  font-size: 64px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #fff;
+}
+
+.quiz-results-container p {
+  width: 945px;
+  margin: 0;
+  font-family: FFNort-Light;
+  font-size: 20.3px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.48;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.share-quiz-container {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+}
+
+.share-quiz-container button {
+  font-family: FFNort-Light;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 40px 15px;
+  border-radius: 40px;
+  border: solid 1px #0e8476;
+  background-color: #0e8476;
+  color: white;
+  letter-spacing: 0.1rem;
+}
+
+.share-quiz-container p {
+  margin: 0;
+  width: auto;
+  text-transform: uppercase;
+  font-family: FFNort-Light;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #fff;
+}
+
+.share-quiz-container img {
+  width: 22px;
+  height: 22px;
+}
+
+.share-quiz-container div img:not(:last-child) {
+  margin-right: 30px;
+}
+
+.carousel-wrapper {
+  margin-top: 10px;
+  height: 350px;
+  width: 95%;
+}
+
+@media (max-width: 950px) {
+  .quiz-results-container h6,
+  .quiz-results-container h1,
+  .quiz-results-container p {
+    width: 95%;
+  }
+  .quiz-results-container h1 {
+    font-size: clamp(3rem, 8vw, 4rem);
+  }
+
+  .quiz-results-container h6 {
+    font-size: clamp(0.3rem, 6vw, 1.1rem);
+  }
+
+  .quiz-results-container p {
+    width: 90%;
+    font-size: clamp(0.7rem, 4vw, 1.5rem);
+  }
+
+  .share-quiz-container p {
+    width: auto;
+    font-size: clamp(0.7rem, 4vw, 1rem);
+  }
+}

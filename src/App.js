@@ -8,6 +8,9 @@ import Loading from "./components/Loading";
 import ScrollToTop from "./components/ScrollToTop";
 import MobileView from "./components/MobileView";
 import QuizLanding from "./pages/QuizLanding/index";
+import QuizQuestions from "./pages/Quiz/index";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (
@@ -18,10 +21,11 @@ function App() {
             <Route exact path="/" element={<QuizLanding />} />
             <Route exact path="/order" element={<Order />} />
             <Route exact path="/quiz-landing" element={<QuizLanding />} />
+            <Route exact path="/quiz" element={<QuizQuestions />} />
           </Routes>
         </ScrollToTop>
       </Router>
-      <MobileView />
+      {/* <MobileView /> */}
     </Suspense>
   );
 }
