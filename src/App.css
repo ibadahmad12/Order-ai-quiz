@@ -60,7 +60,7 @@ input {
   caret-color: #0e8476;
 }
 
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 375px) {
   .page-wrap {
     display: none;
   }

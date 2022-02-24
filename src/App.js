@@ -14,19 +14,23 @@ import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (
-    <Suspense fallback={<Loading />}>
-      <Router>
-        <ScrollToTop>
-          <Routes>
-            <Route exact path="/" element={<QuizLanding />} />
-            <Route exact path="/order" element={<Order />} />
-            <Route exact path="/quiz-landing" element={<QuizLanding />} />
-            <Route exact path="/quiz" element={<QuizQuestions />} />
-          </Routes>
-        </ScrollToTop>
-      </Router>
-      {/* <MobileView /> */}
-    </Suspense>
+    <>
+      <div className="page-wrap">
+        <Suspense fallback={<Loading />}>
+          <Router>
+            <ScrollToTop>
+              <Routes>
+                <Route exact path="/" element={<QuizLanding />} />
+                <Route exact path="/order" element={<Order />} />
+                <Route exact path="/quiz-landing" element={<QuizLanding />} />
+                <Route exact path="/quiz" element={<QuizQuestions />} />
+              </Routes>
+            </ScrollToTop>
+          </Router>
+        </Suspense>
+      </div>
+      <MobileView />
+    </>
   );
 }
 

@@ -23,7 +23,7 @@
   margin: -4px 0px 0 0;
 }
 
-iframe {
+.mobile-phone-wrap iframe {
   position: absolute;
   height: 507px;
   top: 0;
