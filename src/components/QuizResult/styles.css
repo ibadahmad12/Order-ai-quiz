@@ -5,7 +5,7 @@
   justify-content: space-evenly;
   align-items: center;
   row-gap: 1.5rem;
-  overflow: hidden;
+  overflow: auto;
   width: 100%;
 }
 
@@ -94,10 +94,11 @@
 .share-quiz-container img {
   width: 22px;
   height: 22px;
+  margin-right: 30px;
 }
 
-.share-quiz-container div img:not(:last-child) {
-  margin-right: 30px;
+.share-quiz-container LinkedinShareButton img {
+  margin-right: 0px;
 }
 
 .carousel-wrapper {

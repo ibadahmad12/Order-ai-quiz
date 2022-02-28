@@ -2,12 +2,13 @@ export var settings = {
   dots: true,
   infinite: false,
   arrows: false,
-  // centerPadding: "60px",
-  speed: 2000,
+  pauseOnHover: true,
+  speed: 1000,
   slidesToShow: 3,
   slidesToScroll: 3,
   initialSlide: 0,
   cssEase: "linear",
+
   responsive: [
     {
       breakpoint: 1450,

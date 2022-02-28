@@ -4,13 +4,12 @@ import { settings } from "./CarouselSettings";
 import "./carousel.css";
 
 export default function Carousel({ challengeQuestion, userAnswers }) {
-  console.log(challengeQuestion, userAnswers);
   return (
     <div className="carousel-container">
       <Slider {...settings}>
         {challengeQuestion.map(({ answer, justification, question }) => {
           return (
-            <div>
+            <div key={question}>
               <div className="carousel-item">
                 <h6>{answer.toString()} is correct</h6>
                 <h4>{question}</h4>

@@ -3,9 +3,6 @@ import "./styles.css";
 import true_logo from "../../assets/images/true.png";
 import false_logo from "../../assets/images/false.png";
 
-// import bs from "../../assets/icons/media/bs.png";
-// import noBS from "../../assets/icons/media/0-bs.png";
-
 export default function QuizCard({ id, statementText }) {
   const getProgerss = () => {
     if (id === 1) return "24%";

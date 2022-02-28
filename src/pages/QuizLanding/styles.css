@@ -1,8 +1,9 @@
 .quiz-landing-container {
   overflow: hidden;
   width: 100vw;
-  height: 93vh;
+  height: 91vh;
   position: relative;
+  overflow: hidden;
 }
 
 .quiz-content-container,
