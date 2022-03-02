@@ -338,17 +338,10 @@
   .cards-wrapper {
     width: 90%;
     display: flex;
-    height: 397px;
-    flex-direction: column;
-    min-height: 397px;
-    position: relative;
-  }
-}
-
-@media (max-width: 650px) {
-  .cards-wrapper {
     height: 357px;
+    flex-direction: column;
     min-height: 357px;
+    position: relative;
   }
 }
 

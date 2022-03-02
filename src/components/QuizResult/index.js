@@ -2,7 +2,7 @@ import React, { useLayoutEffect, useState } from "react";
 import twitter from "../../assets/images/twitter.png";
 import facebook from "../../assets/images/facebook.png";
 import linkedin from "../../assets/images/linkedin.png";
-
+import { useNavigate } from "react-router-dom";
 import "./styles.css";
 import Carousel from "./Carousel";
 import {
@@ -13,6 +13,7 @@ import {
 
 export default function QuizResult({ challengeQuestion, userAnswers }) {
   const [userScore, setUserScore] = useState(0);
+  const navigate = useNavigate();
 
   useLayoutEffect(() => {
     let score = 0;
@@ -29,20 +30,18 @@ export default function QuizResult({ challengeQuestion, userAnswers }) {
     <div className="quiz-results-container">
       <h6>Thanks for Playing</h6>
       <h1>
-        You got {userScore} out of {challengeQuestion.length} correct
+        You got &nbsp;{userScore} out of &nbsp;{challengeQuestion.length}{" "}
+        correct
       </h1>
       <p>
         We put together research to identify five ways you can improve your
         profitability by making modest improvements to your customer experience.
       </p>
       <div className="share-quiz-container">
-        <button>Get the FREE eBook</button>
+        <button onClick={() => navigate("/form")}>Get the FREE eBook</button>
         <p>Share this quiz</p>
         <div style={{ display: "flex" }} className="social-buttons">
-          <FacebookShareButton
-            url={"https://order-ai-quiz.netlify.app"}
-            quote="Hungerrush Quiz"
-          >
+          <FacebookShareButton url={"https://order-ai-quiz.netlify.app"}>
             <img src={facebook} alt="facebook icon" />
           </FacebookShareButton>
           <TwitterShareButton
