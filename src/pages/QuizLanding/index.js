@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-import bakcground from "../../assets/images/background@2x.png";
+import bakcground from "../../assets/images/background@2x.webp";
 import TitleBar from "../../components/TitleBar/index";
 import { useNavigate } from "react-router-dom";
 
@@ -13,6 +13,7 @@ export default function QuizLanding() {
         <div className="quiz-hero-image">
           <img src={bakcground} alt="background img" />
         </div>
+        <div className="image-overlay" />
 
         <div className="quiz-content-container">
           <h6>Test your Knowledge</h6>

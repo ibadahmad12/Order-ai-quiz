@@ -2,7 +2,7 @@ export const questions = [
   {
     id: 1,
     question:
-      "During peak hours there were no guests that preferred to speak to an AI-ordering bot immediately, and instead opted to wait for a human.",
+      "During peak hours guests prefer not to speak to an AI-ordering bot immediately, and instead opted to wait for a human.",
     justification: `Testing by a major pizza chain found that 30% (and increasing) of people placing phone orders during peak hours agreed to talk to an automated ordering bot rather than waiting for a human.`,
     answer: false,
   },

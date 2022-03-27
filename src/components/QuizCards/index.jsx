@@ -21,7 +21,7 @@ export default function QuizCard({ id, statementText }) {
       <div className="overlay-container">
         <div className="progress" style={{ width: getProgerss() }}></div>
       </div>
-      <h4>Statement {id} of 4</h4>
+      <h4>Statement {id} of 5</h4>
       <h1>{statementText}</h1>
     </div>
   );

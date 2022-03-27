@@ -130,26 +130,26 @@
 
 .scale-to-100 {
   opacity: 1;
-  transform: scale(0.9);
-  animation: scaleTo100 0.3s linear 1s forwards;
+  transform: scale(0.86);
+  animation: scaleTo100 0.3s linear 0.2s forwards;
 }
 
 .scale-to-90 {
   opacity: 1;
-  transform: scale(0.8);
-  animation: scaleTo90 0.3s linear 1s forwards;
+  transform: scale(0.76);
+  animation: scaleTo90 0.3s linear 0.2s forwards;
 }
 
 .scale-to-80 {
   opacity: 1;
-  transform: scale(0.7);
-  animation: scaleTo80 0.3s linear 1s forwards;
+  transform: scale(0.66);
+  animation: scaleTo80 0.3s linear 0.2s forwards;
 }
 
 .scale-to-70 {
   opacity: 1;
-  transform: scale(0.6);
-  animation: scaleTo70 0.3s linear 1s forwards;
+  transform: scale(0.56);
+  animation: scaleTo70 0.3s linear 0.2s forwards;
 }
 
 @keyframes rotateCard1 {
@@ -300,37 +300,37 @@
 
 @keyframes scaleTo100 {
   50% {
-    transform: scale(0.93);
+    transform: translateY(-25px) scale(0.93);
   }
   100% {
-    transform: scale(0.96);
+    transform: translateY(-45px) scale(0.96);
   }
 }
 
 @keyframes scaleTo90 {
   50% {
-    transform: scale(0.83);
+    transform: translateY(-25px) scale(0.83);
   }
   100% {
-    transform: scale(0.86);
+    transform: translateY(-45px) scale(0.86);
   }
 }
 
 @keyframes scaleTo80 {
   50% {
-    transform: scale(0.73);
+    transform: translateY(-25px) scale(0.73);
   }
   100% {
-    transform: scale(0.76);
+    transform: translateY(-45px) scale(0.76);
   }
 }
 
 @keyframes scaleTo70 {
   50% {
-    transform: scale(0.63);
+    transform: translateY(-25px) scale(0.63);
   }
   100% {
-    transform: scale(0.66);
+    transform: translateY(-45px) scale(0.66);
   }
 }
 
@@ -349,5 +349,12 @@
   .cards-wrapper {
     height: 307px;
     min-height: 307px;
+  }
+}
+
+@media (max-height: 750px) {
+  .cards-wrapper {
+    height: 300px;
+    min-height: 300px;
   }
 }
